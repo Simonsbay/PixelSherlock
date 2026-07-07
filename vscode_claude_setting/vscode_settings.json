@@ -1,0 +1,22 @@
+{
+    "http.proxy": "",
+    "https.proxy": "",
+
+    "http.proxyStrictSSL": false,
+    "http.proxyAuthorization": null,
+    // 远程 SSH 必加：插件跑本地，用本地代理（不要删！）
+    "remote.extensionKind": {
+        "Anthropic.claude-code-assist": ["ui"]
+    },
+    // 强制插件使用这些环境变量
+    "claude-code-assist.env": {
+    "ANTHROPIC_API_KEY": "",
+    "ANTHROPIC_BASE_URL": ""
+    },
+    "terminal.integrated.env.linux": {
+    "ANTHROPIC_API_KEY": "",
+    "ANTHROPIC_BASE_URL": "",
+    "HTTP_PROXY": "",
+    "HTTPS_PROXY": ""
+    },
+}

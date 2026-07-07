@@ -1,0 +1,24 @@
+{
+    "remote.SSH.remotePlatform": {
+        "<your_ssh_host>": "linux"
+    },
+    "claudeCode.preferredLocation": "panel",
+    "claudeCode.environmentVariables": [
+        {
+            "name":"HTTP_PROXY",
+            "value": ""
+        },
+        {
+            "name":"HTTPS_PROXY",
+            "value": ""
+        },
+        {
+            "name": "ANTHROPIC_API_KEY",
+            "value": ""
+        },
+        {
+            "name": "ANTHROPIC_BASE_URL",
+            "value": ""
+        }
+    ],
+}
